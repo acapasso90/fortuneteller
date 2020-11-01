@@ -46,7 +46,5 @@ function getFortune() {
 
 }
 
-
-
 let crystal = document.querySelector(".crystal");
 crystal.addEventListener("click", getFortune);

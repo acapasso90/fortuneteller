@@ -9,6 +9,7 @@ text-align: center;}
     box-shadow: 0 0 10px #9b94a8;
   position: relative;
   right: 80px;
+  top: 30px;
   width: 400px;
 animation: glow 4s ease-in-out infinite alternate;}
 
@@ -32,7 +33,7 @@ background: linear-gradient(0deg, rgba(80,3,45,1) 0%, rgba(152,46,84,1) 100%);
 height: 200px;
     width: 420px;
       position: relative;
-    top: 435px;
+      top: 485px;
     right: 90px;
     border-radius: 6px;
   }
@@ -43,7 +44,7 @@ height: 0;}
 
 .toldFortune {color: #92028b;
 position: relative;
-bottom: 270px;
+bottom: 220px;
 right: 590px;
 margin: 0 auto;
 max-width: 80%;
@@ -53,3 +54,10 @@ font-size: 25px;
 text-shadow: 2px 2px 5px #210d91,
 1px 1px 10px #8a2424;
 }
+
+.header h2 {margin: 100px 1010px 0 0;
+color: #e6c354;
+text-shadow: 2px 2px 5px #5f4d11;
+font-size: 32px;
+white-space: nowrap;
+font-family: 'Merienda', cursive;}
