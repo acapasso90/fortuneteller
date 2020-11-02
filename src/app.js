@@ -47,4 +47,4 @@ function getFortune() {
 }
 
 let crystal = document.querySelector(".crystal");
-crystal.addEventListener("click", getFortune);
+crystal.addEventListener("click", getFortune, { once: true });

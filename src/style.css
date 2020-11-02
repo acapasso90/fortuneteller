@@ -45,19 +45,26 @@ height: 0;}
 .toldFortune {color: #92028b;
 position: relative;
 bottom: 220px;
-right: 590px;
+right: 600px;
 margin: 0 auto;
 max-width: 80%;
 white-space: nowrap;
 font-family: 'Bad Script', cursive;
 font-size: 25px;
+animation: appear 4s ease-in 1 normal;
 text-shadow: 2px 2px 5px #210d91,
 1px 1px 10px #8a2424;
 }
 
+
+@keyframes appear {from {margin-top: 70px;
+  color: #DCBFEA;
+text-shadow: none;}
+  to {max-width: 100%;}}
+
 .header h2 {margin: 100px 1010px 0 0;
 color: #e6c354;
-text-shadow: 2px 2px 5px #5f4d11;
+text-shadow: 2px 2px 5px #886f1e;
 font-size: 32px;
 white-space: nowrap;
 font-family: 'Merienda', cursive;}
