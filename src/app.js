@@ -1,7 +1,6 @@
 function getFortune() { 
     let toldFortune = document.querySelector(".toldFortune");
     let fortune = Math.random();
-    console.log(fortune);
     if(fortune > 0 && fortune < 0.025){toldFortune.innerHTML=`"A feeling of anxiety is the <br />  sure and certain evidence <br /> that you should do this." <br /> Clive Barker`;}
     else if (fortune > 0.025 && fortune < 0.05){toldFortune.innerHTML=`Distractions will look like <br /> opportunities when you don't <br /> know where you are going.`;}
     else if (fortune > 0.05 && fortune < 0.075){toldFortune.innerHTML=`What's good for you brings out the <br /> best in you. What's bad for you doesn't.`;}
